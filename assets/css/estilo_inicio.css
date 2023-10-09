@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../image/bg4.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #23c746;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.opcion {
+    text-align: center;
+    background-color: #e2e61b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 250px;
+}
+
+.opcion img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.opcion button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.opcion button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #333;
+}
+.boton-entrar {
+    background-color: #007bff; /* Color de fondo personalizado */
+    color: #fff; /* Color de texto personalizado */
+    border: 2px solid #007bff; /* Borde personalizado */
+    padding: 10px 20px; /* Espaciado personalizado */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    
+}
+
+.boton-entrar:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
